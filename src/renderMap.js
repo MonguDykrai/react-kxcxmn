@@ -21,11 +21,11 @@ const renderMap = {
       // ),
       // `,
       fnStr:
-        '(value, record) => (<Switch key={record.id} defaultChecked onChange={checked => console.log(checked)} />)',
+        '(value, record) => (<Switch key={record.id} defaultChecked onChange={checked => console.log(checked)}></Switch>)',
     },
   },
 };
 
 export default renderMap;
 
-[ { "title": "开启效果流", "dataIndex": "checked", "key": "checked", "render": "(value, record) => (<Switch key={record.id} defaultChecked onChange={checked => console.log(checked)} />)" } ]
+// [ { "title": "开启效果流", "dataIndex": "checked", "key": "checked", "render": "(value, record) => (<Switch key={record.id} defaultChecked onChange={checked => console.log(checked)} />)" } ]
